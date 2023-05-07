@@ -1,0 +1,307 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mehrnoosh Hassani | Data Analyst</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<nav id="menu">
+					<ul>
+						<li>
+							<a href="../../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../../projects/index.html">Projects</a>
+						</li>
+						<li>
+							<a href="../../about.html">About</a>
+						</li>
+						<li>
+							<a href="../../index.html#contact">Contact</a>
+						</li>
+					</ul>
+					<div class="row">
+						<article class="col-6 col-12-xsmall"></article>
+					</div>
+				</nav>
+				<div class="inner">
+					<a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+					<h1><strong>I am Mehrnoosh</strong>, a data analyst<br />
+					who loves diving deep into data to 
+					extract useful information and help make informed decisions.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Canadian Wildland Fires Story</h1>
+						</header>
+						<p>
+							<a href="fire-steps.png" target="_blank">
+								<img src="fire-steps.png" width="100%"/>
+							</a>			
+						</p>
+						
+						<h2>Overview</h2>
+						<p>
+							Canada has about 9% of the world’s forests. Each year over the last 25 years, about 7,300 forest fires have occurred. The total area burned varies widely from year to year but averages about 2.5 million hectares annually.
+							Some are uncontrolled wildfires started by lightning or human carelessness. A small number are prescribed fires set by authorized forest managers to mimic natural fire processes that renew and maintain healthy ecosystems
+							Wildland fires is a challenge for forest management with the potential to be at once harmful and beneficial.
+							Forest agencies work to harness the force of natural fire to take advantage of its ecological benefits while at the same time limiting its potential damage and costs. This makes fire control strategies a vital component of forest management and emergency management in Canada. 
+						</p>
+
+						<h2>Objective</h2>
+						<p>Analyzing previous wildland fire data among the Canadian provinces and national parks to optimize the fire control strategies.</p>
+						
+						<h2>Context</h2>
+						<p>
+							Wildfires is a project that I built as part of my data immersion course at CareerFoundry to demonstrate my mastery of data analysis. I as a data analyst, helped CFS (Canadian Forest Service) by analyzing fire characteristics so they can prioritize and improve timing, 
+							locations, etc.
+						</p>
+						
+						<ul>
+							<li>
+								<strong style="font-weight: bold;">Project Scale: </strong> One month
+								</li>
+							<li>
+								<strong style="font-weight: bold;">Analytics based on the past 20 years (2001 – 2021)</strong>
+							</li>
+						</ul>	 
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<div class="row">
+							<article class="col-4 col-12-xsmall">
+								<img src="../../images/tools.png" class="summary-icons" />
+								<ul>
+									<li>Jupyter Notebook</li>
+									<li>Tableau</li>
+									<li>
+										Python packages and libraries:
+										<ul>
+											<li>Numpy</li>
+											<li>Pandas</li>
+											<li>Matplotlib</li>
+											<li>Skilearn</li>
+											<li>Statmodels</li>
+											<li>Folium</li>
+										</ul>
+									</li>
+								</ul>
+							</article>
+							<article class="col-4 col-12-xsmall">
+								<img src="../../images/skills.png" class="summary-icons" />
+								<ul>
+									<li>Data wrangling</li>
+									<li>Visualizations</li>
+									<li>
+										Advanced analysis in Python including:
+										<ul>
+											<li>Geospatial analysis</li>
+											<li>Supervised ML (Regression)</li>
+											<li>Unsupervised ML (Clustering)</li>
+											<li>Time series analysis</li>
+										</ul>
+									</li>
+								</ul>
+							</article>
+							<article class="col-4 col-12-xsmall">
+								<img src="../../images/data.png" class="summary-icons" />
+								<ul>
+									<li>Format: Excel-CSV</li>
+									<li>Records: 418.8K</li>
+									<li>Information: Location of fire, report date, size of fire, cause of fire</li>
+									<li>
+										<a href="https://cwfis.cfs.nrcan.gc.ca/datamart" target="_blank">Data Citation: 
+											Canadian Wildland Fire Information System Datamart</a>
+										<br />
+										<span style="font-size: small;">Last update: 12/31/2021</span>
+									</li>
+								</ul>
+							</article>
+						</div>
+					</section>
+				
+					<!-- Three -->
+					<section id="three">
+						<h2>Questions</h2>
+						<ol>
+							<li>How fire ignites?</li>
+							<li>What is the proportion of each cause?</li>
+							<li>How is the wildland fire behavior in different provinces?</li>
+						</ol>
+						
+						<h2>Solution</h2>
+						<p>These three questions are solved by analysis of “cause” variable in the dataset.</p>
+						<p>
+							“Lightening” and “Human-caused” have burned the largest sizes in the past 25 years.
+							We prioritized “human-caused” fires (as a cause which can be controlled) and focused on 
+							weather conditions for further analysis.
+						</p>
+						<p>
+							The top- three provinces with the highest number of fires in the past 25 years are selected for further exploration: 
+							British Columbia, Alberta, and Ontario.
+						</p>
+						<p>
+							Stacked bar chart is used to present the proportion of each cause in each Canadian province.
+							<br />
+							<a href="how-fire-ignites.png" target="_blank">
+								<img src="how-fire-ignites.png" width="100%" />
+							</a>
+						</p>
+					</section>
+   				
+					<!-- Four -->
+					<section id="four">
+						<h2>Questions</h2>
+						<ul>
+							<li>How fire develops in Canadian provinces?</li>
+						</ul>
+						
+						<h2>Solution</h2>
+						<p>In order to answer this question, we categorized the fires based on “size classes”. </p>
+						<p>Distribution of fires in Canadian provinces are presented in size classes dashboard. </p>
+						<p>The stacked bar chart shows that most of the fires in Canadian provinces occurred in small sizes which fall into Class A and Class B.</p>
+						<p>Northwest Territories have the highest proportion of Class E (largest size) fires with around 32.9% of fires which happened in this area in the past 20 years.</p>
+						<p>
+							<a href="fire-count.png" target="_blank">
+								<img src="fire-count.png" width="100%" />
+							</a>
+						</p>
+						<p style="text-align: center;">
+							<a href="python-choropleth.png" target="_blank">
+								<img src="python-choropleth.png" width="50%" />
+							</a>
+						</p>
+					</section>
+
+					<!-- Five -->
+					<section id="five">
+						<h2>Questions</h2>
+						<ul>
+							<li>Do weather conditions (wind, temperature) affect the size of the fire?</li>
+						</ul>
+						
+						<h2>Solution</h2>
+						<p>To find an answer to this question we looked for daily weather information for fire locations in Canada. The only open dataset that we were able to find with longitude and latitude was for Alberta, which happens to be among the top three Canadian provinces with the highest number of fires in the past 20 years.</p>
+						<p>We used the info of the closest weather station to a specific fire in Alberta to map the weather condition around the fire location. </p>
+						<p>Maximum Wind gust and Maximum temperature are the variables which we selected to conduct the analysis on.</p>
+						<p>Correlation Matrix was created in Python to determine the relationship between the size of fire and weather characteristics. A weak positive relationship was revealed between the size of fire and the maximum wind gust around the fire location in Alberta.</p>
+						<p>
+							<a href="weather.png" target="_blank">
+								<img src="weather.png" width="100%" />
+							</a>
+						</p>
+					</section>
+				
+				   	<!-- Six -->
+					<section id="six">
+					<h2>Questions</h2>
+					<ul>
+						<li>Do the maximum wind gust affect the size of the fire?</li>
+					</ul>
+					
+					<h2>Observation</h2>
+					<p>After analyzing and exploring data with regression, we found out there is a weak positive relationship between fire spread and wind gusts in Alberta over the last 20 years.</p>
+					<p>In the Scatterplot situated underneath, most of the larger fires (light and dark purple dots, which correspond to fire sizes averaging around 88 and 135 hectares, respectively) happen with higher maximum wind gust values. Smaller max wind gust values are associated with smaller fires (light and dark pink dots, corresponding to fire sizes averaging around 1 and 12 hectares, respectively).</p>
+					<p>This insight can be observed after applying clustering to the data and we were not able to find this relationship using supervised ML (linear regression).</p>
+					
+					<p>
+						<a href="clustering.png" target="_blank">
+							<img src="clustering.png" width="100%" />
+						</a>
+					</p>
+					</section>
+
+					<!-- Seven -->
+					<section id="seven">
+						<h2>Questions</h2>
+						<ul>
+							<li> Does the number of Human-caused fires stay the same in Canadian provinces over the years?</li>
+						</ul>
+						
+						<h2>Observation</h2>
+						<p>We conducted time-series analysis in Python on historical report of Canadian wildland fires. To forecast the number of fires for upcoming years we applied ARIMA model to estimate the number of human-caused fires in Canada for upcoming years. Note that Tableau uses exponential smoothing to compute the forecasts and present a smoother trend.</p>
+						<p>The number of human-caused fires in the year of 2023 has been estimated to be 2017 fires around the country.</p>
+												
+						<p>
+							<a href="forecating.png" target="_blank">
+								<img src="forecating.png" width="100%" />
+							</a>
+						</p>
+
+				</section>
+
+				<!-- Eight -->
+				<section id="eight">
+					<h2>Recommendation</h2>
+					
+					<div class="wrapper">
+						<ul>
+							<li>Since human-caused fires are among the two top causes for large-size fires, we need to restrict the barbeque in forests and make a plan to inform people so that we are able to minimize Human-caused fires, especially on days with higher wind gust speed. This will reduce the challenges of forest management for CFS.</li>
+							<br>
+							<li>In most cases, there was a large distance between the fire and the weather stations. In other words, the data might suffer from measurement bias, since there was no closer weather station to the fire. In addition to that, the data has some visible outliers. As observed in the distribution plot, most of the data (“size” variable) lies in the small values. </li>
+							<br>
+							<li>In order to improve the model which have been used in forecasting, in the next steps we need to check and see if we can find data sources for other provinces' weather conditions as well. We also need to find out what the best range of distance is between the fire location and the weather station (after consulting with subject matter experts). This can be applied to the computation and will improve the measurements significantly.</li>
+						</ul>
+					</div></section>
+				
+					<br>
+					<p>					
+						<a href="challenges.png" target="_blank">
+							<img src="challenges.png" width="100%" />
+						</a>
+					</p>
+					<br>
+					<h2>Deliverables</h2>
+					<ul>
+						<li><a href="https://public.tableau.com/app/profile/mehrnoosh5165/viz/WildlandFires/Can_Fire_Story" target="_blank"><img src="../../images/Tableau green.png" class="tableau-link" />Tableau Story</a></li>
+						<li><a href="https://github.com/mehrnooshh/CanadianWildlandFires_Python_Analysis" target="_blank"><i class="fab fa-github"></i> Python Analysis in GitHub</a></li>
+						<li><a href="https://drive.google.com/file/d/1jVfNg2VaCjhaGYgjIA9J5ZUaCexwL23L/view" target="_blank"><i class="far fa-file-pdf"></i> Data Dictionary and Citations</a></li>
+					</ul>
+					
+			<!-- </section> -->
+
+					<ul class="actions">
+						<li><a href="../index.html" class="button">All Projects</a></li>
+						<li><a href="../../Portfolio.pdf" class="button" target="_blank">Full Portfolio</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="../../Resume.pdf" target="_blank" class="icon brands" title="Resume"><i class="icon fas fa-file-alt" style="font-size: 1em;"></i><span class="label">Resume</span></a></li>
+						<li><a href="https://www.linkedin.com/in/mehrnoosh-hassani" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/mehrnooshh" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://public.tableau.com/app/profile/mehrnoosh5165" target="_blank" class="icon brands tableau"><img src="../../images/Tableau green.png" height="32" /><span class="label">Tableau</span></a></li>
+						<li><a href="mailto://lastname dot firstname at gmail dot com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Mehrnoosh Hassani</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

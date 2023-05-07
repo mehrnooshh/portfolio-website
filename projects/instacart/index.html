@@ -1,0 +1,400 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Mehrnoosh Hassani | Data Analyst</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css" />
+	<link rel="stylesheet" href="../../assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+	<!-- Header -->
+	<header id="header">
+		<nav id="menu">
+			<ul>
+				<li>
+					<a href="../../index.html">Home</a>
+				</li>
+				<li>
+					<a href="../../projects/index.html">Projects</a>
+				</li>
+				<li>
+					<a href="../../about.html">About</a>
+				</li>
+				<li>
+					<a href="../../index.html#contact">Contact</a>
+				</li>
+			</ul>
+			<div class="row">
+				<article class="col-6 col-12-xsmall"></article>
+			</div>
+		</nav>
+		<div class="inner">
+			<a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+			<h1><strong>I am Mehrnoosh</strong>, a data analyst<br />
+				who loves diving deep into data to
+				extract useful information and help make informed decisions.</h1>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h1>InstaCart Story</h1>
+			</header>
+			<p>
+				<a href="instac-steps.png" target="_blank">
+					<img src="instac-steps.png" width="100%" />
+				</a>
+			</p>
+			<p>
+				Instacart, an online grocery store that operates through an app in North America, already has very good
+				sales, but they want to uncover more information about their sales patterns. They assume they can't
+				target everyone using the same methods, and they’re considering a targeted marketing strategy.
+			</p>
+			<h2>Objective</h2>
+			<p>
+				My task is to perform an initial data and exploratory analysis of some of their data in order to derive
+				insights and suggest strategies for better customer segmentation based on the provided criteria.
+			</p>
+
+					<li>
+						<strong style="font-weight: bold;">Project Scale: </strong> 45 Days
+						</li>
+				
+				<li><strong style="font-weight: bold;">Exclusion Flags: </strong> Max_order &lt; 5</li>
+				<li><strong style="font-weight: bold;">N.B. </strong> Customers PII information have been removed (Two columns: first name, last name)</li>
+				<li>
+					<strong style="font-weight: bold;">Keynotes: </strong> Instacart is a real company that’s made their data available online. However, the customer
+					information and prices have been fabricated.
+				</li>
+			</ul>
+		</section>
+
+		<!--Two-->
+		<section id="two">
+			<div class="row">
+				<article class="col-4 col-12-xsmall">
+					<img src="../../images/tools.png" class="summary-icons" />
+					<ul>
+						<li>Jupyter Notebook</li>
+						<li>
+							Python packages and libraries:
+							<ul>
+								<li>Numpy</li>
+								<li>Pandas</li>
+								<li>Matplotlib</li>
+								<li>Seaborn</li>
+							</ul>
+						</li>
+					</ul>
+				</article>
+				<article class="col-4 col-12-xsmall">
+					<img src="../../images/skills.png" class="summary-icons" />
+					<ul>
+						<li>Data wrangling</li>
+						<li>Deriving new columns</li>
+						<li>Subsetting</li>
+						<li>Combining, grouping and aggregating data</li>
+						<li>Visualizations in Python</li>
+						<li>Markdown for Jupyter notebooks.</li>
+					</ul>
+				</article>
+				<article class="col-4 col-12-xsmall">
+					<img src="../../images/data.png" class="summary-icons" />
+					<ul>
+						<li>Format: Excel-CSV, PKL</li>
+						<li>Records: 32.4M orders</li>
+						<li>Information: orders, products, customers, departments</li>
+						<li><a href="https://gist.github.com/jeremystan/c3b39d947d9b88b3ccff3147dbcf6c6b"
+								target="_blank">Data Dictionary</a></li>
+						<li><a href="https://s3.amazonaws.com/coach-courses-us/public/courses/data-immersion/A4/A4_Data_Assets/customers.zip"
+								target="_blank">Customer Dataset</a></li>
+						<li>Data Citation:
+							<a href="https://www.instacart.com/datasets/grocery-shopping-2017" target="_blank">
+								The Instacart Online Grocery Shopping Dataset 2017</a>
+							<br />
+							<span style="font-size: small;">Accessed: 10 Jan 2023</span>
+						</li>
+					</ul>
+
+				</article>
+			</div>
+		</section>
+
+
+		<!-- Three -->
+		<section id="three">
+
+			<p>
+				<a href="stablishing-targets.png" target="_blank">
+					<img src="stablishing-targets.png" width="100%" />
+				</a>
+			</p>
+		</section>
+
+
+		<!-- Four -->
+		<section id="four">
+			<h2>Questions</h2>
+			<p>
+				The sales team needs to know what the busiest days of the week and hours of the day are in order to
+				schedule ads at times when there are fewer orders.
+			</p>
+			<h2>Solution</h2>
+			<p>
+				Histograms have been plotted in order to see the distribution of orders over the days of a week/hours of
+				a day. We also draw a line chart to find the customers’ spending habits for a day.
+			</p>
+			<p>
+				Saturday, Sunday and Friday respectively are the busiest days of the week. In terms of time in a day,
+				between 10am to 3pm is the busiest time to place an order. Orders drop drastically after 6pm until the
+				next day 8am, so weekdays on mentioned hours might be the perfect time to schedule ads.
+			</p>
+			<p>
+				Please note in the below figures, days are represented in numeric values where 0=Saturday and 6=Friday.
+			</p>
+			<p>
+				<a href="hours.png" target="_blank">
+					<img src="hours.png" width="51%" />
+				</a>
+				<a href="days.png" target="_blank">
+					<img src="days.png" width="45%" />
+				</a>
+			</p>
+		</section>
+
+		<!-- Five -->
+		<section id="five">
+			<h2>Question</h2>
+					<p>
+				The sales team needs to know whether there are particular times of the day when people spend the most
+				money, as this might inform the type of products they advertise at these times.
+			</p>
+	
+			<h2>Solution</h2>
+	
+			<p>
+				High frequency of orders with a low expenditure are placed during the day (9am-5pm). However, a low
+				frequency of orders with a high expenditure happens between 6-8am, early in the morning.
+			</p>
+			<p>
+				Also, in the afternoon we observed two peaks at noon and around 9 pm. IC can use these hours to inform
+				the type of products they advertise.
+			</p>
+			<p>
+				In the right chart (bar) we can see the distribution of orders during the three periods in a day. Early
+				birds place their orders between 5am-8am, regular customers 9am-11pm, and night owls after midnight to 4
+				am. Over 80% of orders come through regular hours.
+			</p>
+		
+			<div class="row">
+				<article class="col-6 col-12-xsmall">
+					<a href="expenditure.png" target="_blank">
+						<img src="expenditure.png" width="90%" style="padding-bottom: 17px;" />
+					</a>
+				</article>
+				<article class="col-6 col-12-xsmall">
+					<a href="time-habits.png" target="_blank">
+						<img src="time-habits.png" width="100%" style="margin-top: 10px;" />
+					</a>
+				</article>
+			</div>
+		</section>
+
+
+		<!-- Six -->
+		<section id="six">
+			<h2>Question</h2>
+			<p>
+				Instacart has a lot of products with different price tags. Marketing and sales want to use simpler price
+				range groupings to help direct their efforts.
+			</p>
+			<h2>Solution</h2>
+			<p>
+				Products are organized in three categories: Low/Mid/High-range based on given conditions. To get a detailed conclusion please refer to the crosstab tables and charts explanation below the visualizations.
+			</p>
+			<ul>
+				<li>Meat seafood has the highest percentage of high-range products with around 44%. </li>
+				<li>Bulk and meat seafood don't have an item listed under low-range products.</li>
+				<li>Alcohol, others, and babies have the highest
+					proportion of mid-range products with over 85%.</li>
+				<li>Other remaining categories are in low-to-medium range.</li>
+			</ul>
+			<ul>
+			<p>
+				- Please note that dairy products are not really high- range, and they are categorized as such because of an outlier (2% milk priced at 99,999).
+			</p>
+			<p> 
+				- Please also note that Pantry high-ranged products contribute just less than 0.03% (small proportion of the whole pantry products), so we can not see this category on the stacked bar chart below.
+			</p>
+			</ul>
+
+			<p style="text-align: center;">
+				<a href="price-range-department.png" target="_blank">
+					<img src="price-range-department.png" width="70%" />
+				</a>
+			</p>
+			<p>
+				<a href="price-range.png" target="_blank">
+					<img src="price-range.png" width="100%" />
+				</a>
+			</p>
+		</section>
+
+		<!-- Seven -->
+		<section id="Seven">
+			<h2>Question</h2>
+			<p>
+				The marketing and sales teams are particularly interested in the different types of customers in their system and how their ordering behaviors differ. For example:
+			</p>
+			<ul>
+				<li>
+					<strong style="font-weight: bold;">
+						What’s the distribution among users in regards to their brand loyalty (i.e., how often do they return to Instacart)? 
+					</strong>
+					<br />
+					51% of orders have been placed by regular customers, 33% by loyal customers, and the remaining 16% are submitted by new customers.
+				</li>
+				<li>
+					<strong style="font-weight: bold;">
+						Are there differences in ordering habits based on a customer’s loyalty status?
+					</strong>
+					<br />
+					Almost 99% of loyal customers shop frequently at IC. Promoting point-based loyalty reward programs would help other 56%  customers (Regular/ new customers proportion) to upgrading their status to loyal customers.
+				</li>
+				<li>
+					<strong style="font-weight: bold;">
+						Are there differences in ordering habits based on a customer’s region?
+					</strong>
+					<br />
+					Ordering habits in different regions are almost the same from proportional perspective. As South region have more population, we observe the higher bar for frequent customers in these states.
+				</li>
+				<li>
+					<strong style="font-weight: bold;">
+						Is there a connection between age and family status in terms of ordering habits?
+					</strong>
+					<br />
+					No, there is no meaningful relation between age and number of dependents in a family.
+				</li>
+			</ul>
+			
+			<p style="text-align: center;">
+				<a href="time-habits-departments-code.png" target="_blank">
+					<img src="time-habits-departments-code.png" width="100%" />
+				</a>
+			</p>
+			
+			<br>
+			<br>
+			<p style="text-align: center;">
+				<a href="cx-loyalty.png" target="_blank">
+					<img src="cx-loyalty.png" width="100%" />
+				</a>
+			</p>
+			
+		</section>
+
+
+		<!-- Eight-->
+		<section id="eight">
+			<h2>Question</h2>
+			<div class="wrapper">
+					<p>
+						What different classifications does the demographic information suggest? Age? Income? Certain types of goods? Family status?
+					</p>
+			</div>
+
+			<p style="text-align: center;">
+				<a href="other-categories.png" target="_blank">
+					<img src="other-categories.png" width="100%" />
+				</a>
+			</p>
+			
+		</section>
+
+		<!-- Nine-->
+		<section id="nine">
+			<h2>Recommendation</h2>
+			<div class="wrapper">
+				<ul>
+					<li>
+						Offer incentives on bulk, other, pets, and bakery departments might help them to increase the sales (Like buy group of 3 get 15% discount/ buy-one-get-one free). Some initiatives like free delivery options on bulk and others plus promoting low-price protection plans /guarantees will be helpful as well.
+					</li>
+					<br>
+					<li>
+						We can introduce some discount like 15-20% off for next order in 5 days to motivate customers return more and turn them to the loyal customers.
+					</li>
+					<br>
+					<li>
+						We can introduce seniors/students' days with special discount like Thursdays and Tuesdays which are not busy days to encourage senior customers placing more orders on slow days.
+					</li>
+				</ul>
+			</div>
+			<p style="text-align: center;">
+				<a href="instac-challenge.png" target="_blank">
+					<img src="instac-challenge.png" width="100%" />
+				</a>
+			</p>
+			
+			<br>
+					<h2>Deliverables</h2>
+					<ul>
+						
+						<li><a href="https://github.com/mehrnooshh/Instacart_Python_Analysis" target="_blank"><i class="fab fa-github"></i> Python Analysis in GitHub</a></li>
+						
+					</ul>
+		</section>
+
+		<!-- Last -->
+		<section id="last">
+			<div class="row">
+
+			</div>
+			<ul class="actions">
+				<li><a href="../index.html" class="button">All Projects</a></li>
+				<li><a href="../../Portfolio.pdf" class="button" target="_blank">Full Portfolio</a></li>
+			</ul>
+		</section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="../../Resume.pdf" target="_blank" class="icon brands" title="Resume"><i class="icon fas fa-file-alt"
+							style="font-size: 1em;"></i><span class="label">Resume</span></a></li>
+				<li><a href="https://www.linkedin.com/in/mehrnoosh-hassani" target="_blank"
+						class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/mehrnooshh" target="_blank" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://public.tableau.com/app/profile/mehrnoosh5165" target="_blank"
+						class="icon brands tableau"><img src="../../images/Tableau green.png" height="32" /><span
+							class="label">Tableau</span></a></li>
+				<li><a href="mailto://lastname dot firstname at gmail dot com" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Mehrnoosh Hassani</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="../../assets/js/jquery.min.js"></script>
+	<script src="../../assets/js/jquery.poptrox.min.js"></script>
+	<script src="../../assets/js/browser.min.js"></script>
+	<script src="../../assets/js/breakpoints.min.js"></script>
+	<script src="../../assets/js/util.js"></script>
+	<script src="../../assets/js/main.js"></script>
+
+</body>
+
+</html>
