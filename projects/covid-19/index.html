@@ -1,0 +1,259 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Mehrnoosh Hassani | Data Analyst</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<header id="header">
+				<nav id="menu">
+					<ul>
+						<li>
+							<a href="../../index.html">Home</a>
+						</li>
+						<li>
+							<a href="../../projects/index.html">Projects</a>
+						</li>
+						<li>
+							<a href="../../about.html">About</a>
+						</li>
+						<li>
+							<a href="../../index.html#contact">Contact</a>
+						</li>
+					</ul>
+					<div class="row">
+						<article class="col-6 col-12-xsmall"></article>
+					</div>
+				</nav>
+				<div class="inner">
+					<a href="../../index.html" class="image avatar"><img src="../../images/avatar.jpg" alt="" /></a>
+					<h1><strong>I am Mehrnoosh</strong>, a data analyst<br />
+					who loves diving deep into data to 
+					extract useful information and help make informed decisions.</h1>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h1>Covid 19 Story</h1>
+						</header>
+						<p>
+							<a href="steps.png" target="_blank">
+								<img src="steps.png" width="100%"/>
+							</a>			
+						</p>
+						
+						<h2>Overview</h2>
+						<p>
+							We imported a CSV of open data on Covid 19 pandemic into a MySQL database and ran multiple queries 
+							to extract descriprtive statics from it. 
+							We practiced creating temporary tables, views, window functions (<code>PARTITION BY</code>), and more.
+							We then used MySQL connector in Microsoft Power BI to crate a report and publish it on the web.
+						</p>
+
+						<h2>Objective</h2>
+						<p>
+							Analyzing the data related to the Covid 19 pandemic, including but not limited to 
+							vaccinations, casualties, and more. 
+						</p>
+						
+						<h2>Context</h2>
+						<p>
+							This is a project that I built as a showcase of Bower BI capabilities.
+						</p>
+						
+						<ul>
+							<li>
+								<strong style="font-weight: bold;">Project Scale: </strong> One week
+								</li>
+							<li>
+								<strong style="font-weight: bold;">Analytics based on the Covid 19 data from Jan 2020 to April 2021</strong>
+							</li>
+						</ul>	 
+					</section>
+
+				<!-- Two -->
+				<section id="two">
+					<div class="row">
+						<article class="col-4 col-12-xsmall">
+							<img src="../../images/tools.png" class="summary-icons" />
+							<ul>
+								<li>MySQL</li>
+								<li>Microsoft Power BI</li>
+								<li>Visual Studio Code</li>
+								<li>DBeaver</li>
+							</ul>
+						</article>
+						<article class="col-4 col-12-xsmall">
+							<img src="../../images/skills.png" class="summary-icons" />
+							<ul>
+								<li>Data wrangling</li>
+								<li>Descriptive statistics</li>
+								<li>Visualizations</li>
+								<li>Geospatial analysis in Power BI</li>
+								<li>Data modeling</li>
+							</ul>
+						</article>
+						<article class="col-4 col-12-xsmall">
+							<img src="../../images/data.png" class="summary-icons" />
+							<ul>
+								<li>Format: Excel-CSV</li>
+								<li>Records: ~85K</li>
+								<li>Information: Number of cases, vaccinatins, hospitalizations, and deaths due to Covid 19</li>
+								<li>
+									<a href="https://ourworldindata.org/covid-deaths" target="_blank">Data Citation: 
+										Our World in Data</a>
+									<br />
+									<span style="font-size: small;">Data collected till: 30 April 2021</span>
+								</li>
+							</ul>
+						</article>
+					</div>
+				</section>
+			
+				<!-- Three -->
+				<section id="three">
+					<h2>Questions</h2>
+					<ol>
+						<li>Which parts of the world have more Covid 19 cases?</li>
+						<li>How different countries differ in terms of the number of Covid 19 vaccinations?</li>
+						<li>Which parts of the world have more Covid 19 cases?</li>
+					</ol>
+					
+					<h2>Solution</h2>
+					<p>These three questions are solved by analysis of multiple variables in the dataset.</p>
+					<p>
+						A Power BI dashboard is used to visualize these variables, so that the data can be filtered 
+						and analyzed at the country and contintent levels.
+					</p>
+					<p>
+						A slicer is used to provide the ability to focus on an interval of time.
+					</p>
+
+					<h2>Data model</h2>
+					<p>
+						<a href="data-model.png" target="_blank">
+							<img src="data-model.png" width="100%" />
+						</a>
+					</p>
+
+					<h2>Power BI Report</h2>
+					<p>
+						<a href="covid-19.png" target="_blank">
+							<img src="covid-19.png" width="100%" />
+						</a>
+					</p>
+				</section>
+			
+				<!-- Four -->
+				<section id="four">
+					<h2>Which parts of the world have more Covid 19 cases?</h2>
+					<p>
+						The data shows Europe had most Covid 19 cases in this period (41m cases)
+						followd by North America (35m cases).
+					</p>
+				</section>
+
+				<!-- Five -->
+				<section id="five">
+					<h2>How different countries differ in terms of the number of Covid 19 vaccinations?</h2>
+					<p>	
+						The dashboard can be used to visualize vaccination counts per country and per continent.
+						The visualization shows that Asia has most vaccinations (more than 194m) during this time.
+						This can be explained by the fact that India and China are among the top three countries with most vaccinatinos. 
+					</p>
+				</section>
+			
+				<!-- Six -->
+				<section id="six">
+				<h2>Which parts of the world have more Covid 19 cases?</h2>
+				<p>
+					In this period there have been 2.84m deaths reported due to Covid 19 all around the world. 
+					Europe with more than 920k deaths has the highest number of deaths. 
+				</p>
+				</section>
+
+				<!-- seven -->
+				<section id="seven">
+
+					<h2>Challenges</h2>
+					
+					<div class="wrapper">
+						<ul>
+							<li>
+								The data has many nulls. After investigation it turned out that the dataset has both continent- and country-level
+								data in it, making the sums over multiple columsn double-counting values. 
+							</li>
+							<li>Data required some validation as there were invalid values (e.g., negative number for new cases)</li>
+							<li>Due to the above, data required multiple cleaning steps before it was usable in the report.</li>
+						</ul>
+					</div>
+				
+				</section>
+
+				<!-- eight -->
+				<section id="eight">
+					<h2>Recommendation</h2>
+					
+					<div class="wrapper">
+						<ul>
+							<li>
+								More analyses is required to be able to be able to establish meaninful relationships between different variables
+								such as number of fully vaccinated people and population density with the number of admissions to the hospital and deaths.
+							</li>
+						</ul>
+					</div>
+				
+				</section>
+				
+				<!-- nine -->
+				<section id="nine">
+					<h2>Deliverables</h2>
+					<ul>
+						<li><a href="https://github.com/mehrnooshh/" target="_blank"><i class="fab fa-github"></i> SQL Scripts</a></li>
+						<li><a href="https://app.powerbi.com/view?r=eyJrIjoiZjE5MWFmY2EtODE2Ny00Y2I0LTg1NTktZTc1OGVkNWU3OWVmIiwidCI6IjhmMmY5N2IwLTM4YWYtNDA2Ni04MWZmLTJkNGM3NjUwOGRiYyJ9" target="_blank"><i class="far fa-chart-bar"></i> Power BI Dashboard</a></li>
+					</ul>
+					
+			<!-- </section> -->
+
+					<ul class="actions">
+						<li><a href="../index.html" class="button">All Projects</a></li>
+						<li><a href="../../Portfolio.pdf" class="button" target="_blank">Full Portfolio</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="../../Resume.pdf" target="_blank" class="icon brands" title="Resume"><i class="icon fas fa-file-alt" style="font-size: 1em;"></i><span class="label">Resume</span></a></li>
+						<li><a href="https://www.linkedin.com/in/mehrnoosh-hassani" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/mehrnooshh" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://public.tableau.com/app/profile/mehrnoosh5165" target="_blank" class="icon brands tableau"><img src="../../images/Tableau green.png" height="32" /><span class="label">Tableau</span></a></li>
+						<li><a href="mailto://lastname dot firstname at gmail dot com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Mehrnoosh Hassani</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
