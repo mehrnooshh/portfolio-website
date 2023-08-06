@@ -54,9 +54,9 @@
 						<h2>Overview</h2>
 						<p>
 							We imported a CSV of open data on Covid 19 pandemic into a MySQL database and ran multiple queries 
-							to extract descriprtive statics from it. 
+							to extract descriptive statics from it. 
 							We practiced creating temporary tables, views, window functions (<code>PARTITION BY</code>), and more.
-							We then used MySQL connector in Microsoft Power BI to crate a report and publish it on the web.
+							We then used MySQL connector in Microsoft Power BI to create a report and publish it on the web.
 						</p>
 
 						<h2>Objective</h2>
@@ -107,7 +107,7 @@
 							<ul>
 								<li>Format: Excel-CSV</li>
 								<li>Records: ~85K</li>
-								<li>Information: Number of cases, vaccinatins, hospitalizations, and deaths due to Covid 19</li>
+								<li>Information: Number of cases, vaccinations, hospitalizations, and deaths due to Covid 19</li>
 								<li>
 									<a href="https://ourworldindata.org/covid-deaths" target="_blank">Data Citation: 
 										Our World in Data</a>
@@ -132,7 +132,7 @@
 					<p>These three questions are solved by analysis of multiple variables in the dataset.</p>
 					<p>
 						A Power BI dashboard is used to visualize these variables, so that the data can be filtered 
-						and analyzed at the country and contintent levels.
+						and analyzed at the country and continent levels.
 					</p>
 					<p>
 						A slicer is used to provide the ability to focus on an interval of time.
@@ -158,7 +158,7 @@
 					<h2>Which parts of the world have more Covid 19 cases?</h2>
 					<p>
 						The data shows Europe had most Covid 19 cases in this period (41m cases)
-						followd by North America (35m cases).
+						followed by North America (35m cases).
 					</p>
 				</section>
 
@@ -168,7 +168,7 @@
 					<p>	
 						The dashboard can be used to visualize vaccination counts per country and per continent.
 						The visualization shows that Asia has most vaccinations (more than 194m) during this time.
-						This can be explained by the fact that India and China are among the top three countries with most vaccinatinos. 
+						This can be explained by the fact that India and China are among the top three countries with most vaccinations. 
 					</p>
 				</section>
 			
@@ -190,7 +190,7 @@
 						<ul>
 							<li>
 								The data has many nulls. After investigation it turned out that the dataset has both continent- and country-level
-								data in it, making the sums over multiple columsn double-counting values. 
+								data in it, making the sums over multiple columns double-counting values. 
 							</li>
 							<li>Data required some validation as there were invalid values (e.g., negative number for new cases)</li>
 							<li>Due to the above, data required multiple cleaning steps before it was usable in the report.</li>
@@ -206,7 +206,7 @@
 					<div class="wrapper">
 						<ul>
 							<li>
-								More analyses is required to be able to be able to establish meaninful relationships between different variables
+								More analyses are required to be able to be able to establish meaningful relationships between different variables
 								such as number of fully vaccinated people and population density with the number of admissions to the hospital and deaths.
 							</li>
 						</ul>
@@ -218,7 +218,7 @@
 				<section id="nine">
 					<h2>Deliverables</h2>
 					<ul>
-						<li><a href="https://github.com/mehrnooshh/" target="_blank"><i class="fab fa-github"></i> SQL Scripts</a></li>
+						<li><a href="https://github.com/mehrnooshh/Covid-Analysis/tree/main" target="_blank"><i class="fab fa-github"></i> SQL Scripts</a></li>
 						<li><a href="https://app.powerbi.com/view?r=eyJrIjoiZjE5MWFmY2EtODE2Ny00Y2I0LTg1NTktZTc1OGVkNWU3OWVmIiwidCI6IjhmMmY5N2IwLTM4YWYtNDA2Ni04MWZmLTJkNGM3NjUwOGRiYyJ9" target="_blank"><i class="far fa-chart-bar"></i> Power BI Dashboard</a></li>
 					</ul>
 					
